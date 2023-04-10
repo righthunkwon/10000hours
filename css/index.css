@@ -44,7 +44,7 @@ html, body {
 
 body {
     font-family: 'GmarketSansMedium';
-    background-color: #5B2386;
+    background-color: #1A64DA;
     color: #FFF;
 }
 
@@ -95,9 +95,9 @@ body {
 }
 
 .intro .intro_saying {
-    font-family: 'OTEnjoystoriesBA';
-    font-size: 36px;
-    color: #F5DF4D;
+    font-family: 'GmarketSansBold';
+    font-size: 30px;
+    color: #FCEE21;
     margin-bottom: 50px;
 }
 
@@ -121,7 +121,8 @@ body {
 
 .intro .explain span {
     font-family: 'GmarketSansBold';
-    font-size: 20px;
+    font-size: 17px;
+    color: #FCEE21;
 }
 
 /* 사용자 입력 */
@@ -159,7 +160,7 @@ button {
     align-items: center;
     font-family: 'GmarketSansBold';
     font-size: 20px;
-    color: #5B2386;
+    color: #1A64DA;
     background-color: #FCEE21;
     border: none;
     border-radius: 30px;
@@ -227,7 +228,7 @@ button {
 .result span {
     padding: 0 20px;
     font-family: 'GmarketSansBold';
-    font-size: 70px;
+    font-size: 40px;
 }
 
 /* 버튼 */
@@ -241,6 +242,7 @@ button {
 .buttons .share button {
     background-color: #FFF;
     margin-left: 20px;
+    background-color: rgb(181, 181, 181);
 }
 
 /* 모달 - 훈련하러가기 */
@@ -268,13 +270,14 @@ button {
 }
 
 #modal .cheer {
-    font-family: 'OTEnjoystoriesBA';
-    color: #5B2386;
+    font-family: 'GmarketSansBold';
+    color: #1A64DA;
     text-align: center;
 }
 
 #modal .cheer h1 {
-    font-size: 80px;
+    font-size: 60px;
+    padding-bottom: 20px;
 }
 
 #modal .cheer h3 {
@@ -297,18 +300,18 @@ button {
 }
 
 /* 저작권 */
-#copyright {
+/* #copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
     left: 0;
     bottom: 0;
-}
+} */
 
 #copyright p {
-    font-size: 10px;
+    font-size: 20px;
     line-height: 1.5;
-    padding: 20px 0;
+    padding-bottom: 50px;
     text-align: center;
 }
